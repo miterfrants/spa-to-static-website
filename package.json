@@ -1,0 +1,20 @@
+{
+  "name": "cathaylife-fitback-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node index.js",
+    "serve": "live-server ./output"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "fse": "^4.0.1",
+    "live-server": "^1.2.2",
+    "path": "^0.12.7",
+    "puppeteer": "^23.3.1",
+    "url": "^0.11.4"
+  }
+}
